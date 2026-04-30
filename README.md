@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project proposes a unified benchmarking framework for evaluating agent-generated workflows in the sktime-mcp ecosystem.
+This project develops a unified benchmarking framework for evaluating agent-generated workflows in the sktime-mcp ecosystem.
 
 The goal is to create a standardized evaluation layer where agentic pipelines can be compared based on correctness, task alignment, and predictive performance.
 
@@ -86,6 +86,9 @@ for task in load_all_tasks():
 
 This demonstrates how agent-generated pipelines can be executed and evaluated across multiple tasks using the proposed benchmarking framework.
 
+## Fit for ESoC
+
+This project extends my existing contributions and aims to turn the current prototype into a robust, CI-integrated benchmarking system for agentic workflows in sktime-mcp.
 
 ## GitHub
 
